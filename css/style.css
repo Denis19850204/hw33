@@ -1,5 +1,6 @@
 :root {
-  --general-text-color: #757575;
+  /* font colours */
+  --main-text-color: #757575;  
   --tittle-color: #212121;
   --secondary-color: #ffffff;
   --accent-color: #2196f3;
@@ -11,7 +12,7 @@
 body {
   background-color: var(--secondary-color);
   font-family: Roboto, sans-serif;
-  color: var(--general-text-color);
+  color: var(--main-text-color);
   font-size: 14px;
 }
 .hero {
@@ -96,7 +97,7 @@ body {
   letter-spacing: 0.02em
 }
 .contact-list-link{
-  color: var(--general-text-color);
+  color: var(--main-text-color);
   text-decoration: none;
   font-family: 'Roboto';
   font-weight: 500;
@@ -212,7 +213,7 @@ body {
   text-decoration: none;
 }
 .text-work {
-  color: var(--general-text-color);
+  color: var(--main-text-color);
   font-family: 'Roboto';
   font-size: 16px;
   line-height: 30px;
